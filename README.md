@@ -1,0 +1,2 @@
+# Deinfra
+Registration Testnet
