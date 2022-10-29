@@ -9,6 +9,10 @@ docker run -d -p 44000:44000 --name tpnode thepowerio/tpnode
 ```
 
 ```
+apt install jq
+```
+
+```
 curl http://IPVPS:44000/api/node/status | jq
 ```
 ***IPVPS ganti dengan ip vps kalian***
