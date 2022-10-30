@@ -9,7 +9,7 @@ docker run -d -p 44000:44000 --name tpnode thepowerio/tpnode
 ```
 
 ```
-apt install jq
+apt install jq https://github.com
 ```
 
 ```
