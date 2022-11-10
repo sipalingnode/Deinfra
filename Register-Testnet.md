@@ -31,6 +31,15 @@ curl http://IPVPS:44000/api/node/status | jq
 sudo apt install screen 
 ```
 
+```
+sudo ufw allow ssh
+sudo ufw enable
+```
+
+```
+ufw status
+```
+
 ## Get the Tea Ceremony client
 
 ```
@@ -45,9 +54,9 @@ chmod +x teaclient
 
 ## Start client
 
-Tunggu sampe dapet token 
+***Tunggu sampe dapet token di botnya***
 
-Contoh : ![Screenshot (269)](https://user-images.githubusercontent.com/94878333/198863606-4f532a1c-699c-43d2-83df-edbac2056827.jpg)
+***Contoh*** ![Screenshot (269)](https://user-images.githubusercontent.com/94878333/198863606-4f532a1c-699c-43d2-83df-edbac2056827.jpg)
 
 ***Kalo dah dapet baru lanjut step dibawah***
 
