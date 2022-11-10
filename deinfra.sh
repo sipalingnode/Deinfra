@@ -14,7 +14,7 @@ echo  "   ████         ████  ██████  █████
 echo -e "\e[35m"
 echo "====================================================================================" 
 
-echo -e '\e[35mUpdate :\e[35m' Inery Task 3
+echo -e '\e[35mUpdate :\e[35m' Tutorial Deinfra Node
 echo -e '\e[35mTelegram Group :\e[35m' @autosultan_group
 echo -e '\e[35mTelegram Channel :\e[35m' @airdropasc
 echo -e '\e[35mYoutube :\e[35m' auto sultan
