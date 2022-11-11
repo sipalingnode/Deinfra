@@ -8,6 +8,11 @@
 wget -qO deinfra.sh https://raw.githubusercontent.com/sipalingnode/Deinfra/main/deinfra.sh && chmod +x deinfra.sh && ./deinfra.sh
 ```
 
+## Running Node
+```
+docker run -d -p 44000:44000 --name testnet thepowerio/tpnode
+```
+
 ## Check Docker
 ```
 docker ps
@@ -23,9 +28,7 @@ curl http://IPVPS:44000/api/node/status | jq
 ```
 ***IPVPS ganti dengan ip vps kalian***
 
-### Get the Tea Ceremony client and token | start tea-client
-
-## Install Screen 
+## Install Screen & Open Port
 
 ```
 sudo apt install screen 
@@ -33,6 +36,7 @@ sudo apt install screen
 
 ```
 sudo ufw allow ssh
+sudo ufw allow 44000
 sudo ufw enable
 ```
 
