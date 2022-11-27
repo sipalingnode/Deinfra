@@ -1,5 +1,16 @@
 # Update Deinfra (Khusus yang udah dapet token dari bot)
 
+## Open Port
+```
+sudo ufw allow ssh
+sudo ufw allow 1080
+sudo ufw allow 1443
+sudo ufw allow 1800
+sudo ufw enable
+```
+```
+ufw status
+```
 ## Install Erlang
 ```
 sudo apt update
